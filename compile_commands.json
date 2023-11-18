@@ -1,0 +1,37 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-std=gnu89",
+      "-g",
+      "-DDEBUG",
+      "-Iinclude/",
+      "-c",
+      "-o",
+      ".build/main.o",
+      "main.c"
+    ],
+    "directory": "/home/liwinux/Desktop/fat32-utility",
+    "file": "/home/liwinux/Desktop/fat32-utility/main.c",
+    "output": "/home/liwinux/Desktop/fat32-utility/.build/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-std=gnu89",
+      "-g",
+      "-I../include",
+      "-c",
+      "-o",
+      ".build/fat32.o",
+      "fat32.c"
+    ],
+    "directory": "/home/liwinux/Desktop/fat32-utility/src",
+    "file": "/home/liwinux/Desktop/fat32-utility/src/fat32.c",
+    "output": "/home/liwinux/Desktop/fat32-utility/src/.build/fat32.o"
+  }
+]
