@@ -90,7 +90,7 @@ Fat32 *readFat32(char *path)
         return NULL;
     }
     if (fread(fat32->ebp, 476, 1, fat32_descriptor) != 1) {
-        fprintf(stderr, "Could not retrieve the BPB from the fat32 disk !");
+        fprintf(stderr, "Could not retrieve the EBP from the fat32 disk !");
         return NULL;
     }
     
