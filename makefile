@@ -1,4 +1,4 @@
-NAME        := fat32-util
+NAME        := fat-util
 INCS        := include/
 
 BUILD_DIR   := .build
